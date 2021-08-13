@@ -95,7 +95,7 @@ function verificarPassword(usuario, password) {
   // Devuelve "true" si coinciden
   // De lo contrario, devuelve "false"
   // // Tu código:
-  return usuario['password'] === password
+  return usuario.password === password
 }
 
 function actualizarPassword(usuario, nuevaPassword) {
